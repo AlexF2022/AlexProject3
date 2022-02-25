@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\cube\soundbanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2927335878">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="194525819" Name="env_corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Environments\env_corridor"/>
+				<AuxBus Id="783969252" Name="env_small_room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Environments\env_small_room"/>
+				<AuxBus Id="3877888880" Name="env_large_room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Environments\env_large_room"/>
+				<AuxBus Id="4102571502" Name="env_medium_room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Environments\env_medium_room"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth" ObjectPath="\Game Parameters\Default Work Unit\PlayerHealth"/>
+				<GameParameter Id="4122641472" Name="Stinger_Sidechain" ObjectPath="\Game Parameters\Music\Stinger_Sidechain"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife" ObjectPath="\States\Default Work Unit\PlayerLife" GUID="{B35C859F-4841-49E0-8B98-85DFAC37BFF5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerLife\None" GUID="{39D7FC90-549C-4DC5-AC21-CB6954DDD32F}"/>
+						<State Id="2791675679" Name="Defeated" ObjectPath="\States\Default Work Unit\PlayerLife\Defeated" GUID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="481714212" Name="PlayerInWater" ObjectPath="\States\Default Work Unit\PlayerInWater" GUID="{9FC18908-F5D8-4C11-B89E-48E8C6E4FBC0}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerInWater\None" GUID="{3F8341B5-F82B-487B-85E9-55F1A71482A9}"/>
+						<State Id="979470758" Name="Yes" ObjectPath="\States\Default Work Unit\PlayerInWater\Yes" GUID="{63BB475D-29FC-41C6-9220-8C0153A4A3BB}"/>
+						<State Id="1668749452" Name="No" ObjectPath="\States\Default Work Unit\PlayerInWater\No" GUID="{775A9F44-C705-44B4-B0F6-CAD5DE184C9A}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2981918260" Language="SFX" Hash="2136659311">
+			<ObjectPath>\SoundBanks\Default Work Unit\DCP_the_core</ObjectPath>
+			<ShortName>DCP_the_core</ShortName>
+			<Path>DCP_the_core.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2245995848" Name="DCP_Enter01" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter01">
+					<IncludedMemoryFiles>
+						<File Id="940017499" Language="SFX">
+							<ShortName>Dungeon_Enter.wav</ShortName>
+							<Path>SFX\Dungeon_Enter_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2245995851" Name="DCP_Enter02" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter02">
+					<IncludedMemoryFiles>
+						<File Id="1062472929" Language="SFX">
+							<ShortName>Access_Granted.wav</ShortName>
+							<Path>SFX\Access_Granted_E5554D93.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2245995850" Name="DCP_Enter03" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter03"/>
+				<Event Id="2245995853" Name="DCP_Enter04" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter04"/>
+				<Event Id="2245995852" Name="DCP_Enter05" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter05"/>
+				<Event Id="2245995855" Name="DCP_Enter06" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter06"/>
+				<Event Id="2245995854" Name="DCP_Enter07" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter07"/>
+				<Event Id="2245995841" Name="DCP_Enter08" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter08"/>
+				<Event Id="2245995840" Name="DCP_Enter09" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter09"/>
+				<Event Id="2229218262" Name="DCP_Enter10" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter10"/>
+				<Event Id="2229218263" Name="DCP_Enter11" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter11"/>
+				<Event Id="2229218260" Name="DCP_Enter12" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter12"/>
+				<Event Id="3721111614" Name="DCP_Music" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Music"/>
+				<Event Id="2829720188" Name="DCP_Signal01" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Signal01">
+					<IncludedMemoryFiles>
+						<File Id="295506681" Language="SFX">
+							<ShortName>Air Plane Ding-SoundBible.com-496729130.wav</ShortName>
+							<Path>SFX\Air Plane Ding-SoundBible.com-496729130_E90F0463.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2829720191" Name="DCP_Signal02" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Signal02">
+					<IncludedMemoryFiles>
+						<File Id="483623956" Language="SFX">
+							<ShortName>Air Plane Ding-SoundBible.com-496729130.wav</ShortName>
+							<Path>SFX\Air Plane Ding-SoundBible.com-496729130_9E8490F4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="559477057">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="427908151" Name="Defeated_Ogre" ObjectPath="\Events\Default Work Unit\Main\Defeated\Defeated_Ogre">
+					<IncludedMemoryFiles>
+						<File Id="558653189" Language="SFX">
+							<ShortName>Ogre_Defeated.wav</ShortName>
+							<Path>SFX\Ogre_Defeated_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3682968165" Name="Defeated_Player" ObjectPath="\Events\Default Work Unit\Main\Defeated\Defeated_Player">
+					<IncludedMemoryFiles>
+						<File Id="186952452" Language="SFX">
+							<ShortName>Player_Defeated.wav</ShortName>
+							<Path>SFX\Player_Defeated_BE94EB68.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2791675679" Name="Defeated" ObjectPath="\States\Default Work Unit\PlayerLife\Defeated"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3952911171" Name="Defeated_Rat" ObjectPath="\Events\Default Work Unit\Main\Defeated\Defeated_Rat">
+					<IncludedMemoryFiles>
+						<File Id="95335283" Language="SFX">
+							<ShortName>Rat_Defeated.wav</ShortName>
+							<Path>SFX\Rat_Defeated_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1278524204" Name="Defeated_Rhino" ObjectPath="\Events\Default Work Unit\Main\Defeated\Defeated_Rhino">
+					<IncludedMemoryFiles>
+						<File Id="565156418" Language="SFX">
+							<ShortName>Rhino_Defeated.wav</ShortName>
+							<Path>SFX\Rhino_Defeated_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="908277812" Name="Defeated_Slith" ObjectPath="\Events\Default Work Unit\Main\Defeated\Defeated_Slith"/>
+				<Event Id="4214542295" Name="End_Fireball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\End_Fireball_Monster"/>
+				<Event Id="3808688735" Name="End_FireGem_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\End_FireGem_Monster"/>
+				<Event Id="9714164" Name="End_FireGem_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\End_FireGem_Player"/>
+				<Event Id="2007968988" Name="End_Iceball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\End_Iceball_Monster"/>
+				<Event Id="360217301" Name="End_Slimeball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\End_Slimeball_Monster"/>
+				<Event Id="784615425" Name="Fire_Bite_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_Bite_Monster"/>
+				<Event Id="157654016" Name="Fire_Fireball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_Fireball_Monster">
+					<IncludedMemoryFiles>
+						<File Id="788222418" Language="SFX">
+							<ShortName>Fireball_Monster.wav</ShortName>
+							<Path>SFX\Fireball_Monster_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2460807274" Name="Fire_FireGem_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_FireGem_Monster"/>
+				<Event Id="3954861711" Name="Fire_FireGem_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_FireGem_Player"/>
+				<Event Id="840179825" Name="Fire_Iceball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_Iceball_Monster"/>
+				<Event Id="2117476293" Name="Fire_IceGem_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_IceGem_Monster">
+					<IncludedMemoryFiles>
+						<File Id="497991544" Language="SFX">
+							<ShortName>Ice_Gem.wav</ShortName>
+							<Path>SFX\Ice_Gem_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2390793602" Name="Fire_IceGem_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_IceGem_Player">
+					<IncludedMemoryFiles>
+						<File Id="497991544" Language="SFX">
+							<ShortName>Ice_Gem.wav</ShortName>
+							<Path>SFX\Ice_Gem_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2921530952" Name="Fire_LightningGem_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_LightningGem_Monster"/>
+				<Event Id="1098487589" Name="Fire_LightningGem_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_LightningGem_Player"/>
+				<Event Id="4290568846" Name="Fire_PoisonGem_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_PoisonGem_Monster">
+					<IncludedMemoryFiles>
+						<File Id="756486234" Language="SFX">
+							<ShortName>Poison_Gem.wav</ShortName>
+							<Path>SFX\Poison_Gem_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1620107411" Name="Fire_PoisonGem_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_PoisonGem_Player">
+					<IncludedMemoryFiles>
+						<File Id="756486234" Language="SFX">
+							<ShortName>Poison_Gem.wav</ShortName>
+							<Path>SFX\Poison_Gem_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="199291532" Name="Fire_Slimeball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_Slimeball_Monster"/>
+				<Event Id="2484024762" Name="Fire_Staff_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\Fire_Staff_Player">
+					<IncludedMemoryFiles>
+						<File Id="734956724" Language="SFX">
+							<ShortName>Player_Staff.wav</ShortName>
+							<Path>SFX\Player_Staff_1044C82E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2677919691" Name="Foot_Bauul" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Bauul">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2057306229" Name="Foot_Goblin" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Goblin">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2C807461-413B-4A4A-A834-F64DAB785904}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{98A05910-B7A6-4C59-A17D-D8AE4307E9E3}">
+							<Media>
+								<File Id="308971088"/>
+								<File Id="353328041"/>
+								<File Id="495232456"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2C807461-413B-4A4A-A834-F64DAB785904}">
+							<Media>
+								<File Id="210352730"/>
+								<File Id="215554627"/>
+								<File Id="598629917"/>
+								<File Id="604547133"/>
+								<File Id="761196538"/>
+								<File Id="1043164576"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8258AC74-69DE-476C-8E12-737F59E1D242}">
+							<Media>
+								<File Id="210352730"/>
+								<File Id="215554627"/>
+								<File Id="598629917"/>
+								<File Id="604547133"/>
+								<File Id="761196538"/>
+								<File Id="1043164576"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{65F087D5-CCB5-4E2A-8AAE-8F4E0C4B2FE7}">
+							<Media>
+								<File Id="308971088"/>
+								<File Id="353328041"/>
+								<File Id="495232456"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A72BD8FB-A36D-410B-8882-203D5410142F}">
+							<Media>
+								<File Id="210352730"/>
+								<File Id="215554627"/>
+								<File Id="598629917"/>
+								<File Id="604547133"/>
+								<File Id="761196538"/>
+								<File Id="1043164576"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4226354843" Name="Foot_HellPig" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_HellPig">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2052767559" Name="Foot_Knight" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Knight">
+					<IncludedMemoryFiles>
+						<File Id="59776030" Language="SFX">
+							<ShortName>metal_foot_3.wav</ShortName>
+							<Path>SFX\metal_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="277190499" Language="SFX">
+							<ShortName>metal_foot_1.wav</ShortName>
+							<Path>SFX\metal_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="341952033" Language="SFX">
+							<ShortName>metal_foot_2.wav</ShortName>
+							<Path>SFX\metal_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1532553273" Name="Foot_Ogre" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Ogre">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Player">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2798325225" Name="Foot_Rat" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Rat">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3826003282" Name="Foot_Rhino" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Rhino">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3877293442" Name="Foot_Slith" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Slith">
+					<IncludedMemoryFiles>
+						<File Id="210352730" Language="SFX">
+							<ShortName>tile_foot_3.wav</ShortName>
+							<Path>SFX\tile_foot_3_EDE324F7.wem</Path>
+						</File>
+						<File Id="215554627" Language="SFX">
+							<ShortName>tile_foot_4.wav</ShortName>
+							<Path>SFX\tile_foot_4_EDE324F7.wem</Path>
+						</File>
+						<File Id="308971088" Language="SFX">
+							<ShortName>sand_foot_3.wav</ShortName>
+							<Path>SFX\sand_foot_3_5147F00C.wem</Path>
+						</File>
+						<File Id="353328041" Language="SFX">
+							<ShortName>sand_foot_1.wav</ShortName>
+							<Path>SFX\sand_foot_1_5147F00C.wem</Path>
+						</File>
+						<File Id="495232456" Language="SFX">
+							<ShortName>sand_foot_2.wav</ShortName>
+							<Path>SFX\sand_foot_2_5147F00C.wem</Path>
+						</File>
+						<File Id="598629917" Language="SFX">
+							<ShortName>tile_foot_6.wav</ShortName>
+							<Path>SFX\tile_foot_6_EDE324F7.wem</Path>
+						</File>
+						<File Id="604547133" Language="SFX">
+							<ShortName>tile_foot_1.wav</ShortName>
+							<Path>SFX\tile_foot_1_8EAF1D1D.wem</Path>
+						</File>
+						<File Id="761196538" Language="SFX">
+							<ShortName>tile_foot_2.wav</ShortName>
+							<Path>SFX\tile_foot_2_EDE324F7.wem</Path>
+						</File>
+						<File Id="1043164576" Language="SFX">
+							<ShortName>tile_foot_5.wav</ShortName>
+							<Path>SFX\tile_foot_5_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="856071815" Name="Grunt_Bauul" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Bauul"/>
+				<Event Id="4013911457" Name="Grunt_Goblin" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Goblin"/>
+				<Event Id="4053570031" Name="Grunt_HellPig" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_HellPig"/>
+				<Event Id="1636303851" Name="Grunt_Knight" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Knight"/>
+				<Event Id="2202981293" Name="Grunt_Ogre" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Ogre">
+					<IncludedMemoryFiles>
+						<File Id="330315589" Language="SFX">
+							<ShortName>Ogre_Grunt.wav</ShortName>
+							<Path>SFX\Ogre_Grunt_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3838741285" Name="Grunt_Rat" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Rat">
+					<IncludedMemoryFiles>
+						<File Id="470003827" Language="SFX">
+							<ShortName>Rat_Grunt.wav</ShortName>
+							<Path>SFX\Rat_Grunt_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="436652326" Name="Grunt_Rhino" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Rhino">
+					<IncludedMemoryFiles>
+						<File Id="501110106" Language="SFX">
+							<ShortName>Rhino_Grunt.wav</ShortName>
+							<Path>SFX\Rhino_Grunt_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1110865203" Name="Hit_Fireball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Hit_Fireball_Monster">
+					<IncludedMemoryFiles>
+						<File Id="219044673" Language="SFX">
+							<ShortName>Body_Impact.wav</ShortName>
+							<Path>SFX\Body_Impact_4ADB80CE.wem</Path>
+						</File>
+						<File Id="788222418" Language="SFX">
+							<ShortName>Fireball_Monster.wav</ShortName>
+							<Path>SFX\Fireball_Monster_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2323254379" Name="Hit_FireGem_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Hit_FireGem_Monster"/>
+				<Event Id="2706330144" Name="Hit_FireGem_Player" ObjectPath="\Events\Default Work Unit\Main\Magic\Hit_FireGem_Player"/>
+				<Event Id="3957683912" Name="Hit_Iceball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Hit_Iceball_Monster"/>
+				<Event Id="3024368545" Name="Hit_Slimeball_Monster" ObjectPath="\Events\Default Work Unit\Main\Magic\Hit_Slimeball_Monster"/>
+				<Event Id="2677419351" Name="ItemHealth100" ObjectPath="\Events\Default Work Unit\Main\ItemHealth100">
+					<IncludedMemoryFiles>
+						<File Id="182850209" Language="SFX">
+							<ShortName>Item_Pickup.wav</ShortName>
+							<Path>SFX\Item_Pickup_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3371734183" Name="Health_Cue" ObjectPath="\Triggers\Music\Health_Cue"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="227445756" Name="ItemHealth200" ObjectPath="\Events\Default Work Unit\Main\ItemHealth200">
+					<IncludedMemoryFiles>
+						<File Id="182850209" Language="SFX">
+							<ShortName>Item_Pickup.wav</ShortName>
+							<Path>SFX\Item_Pickup_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3371734183" Name="Health_Cue" ObjectPath="\Triggers\Music\Health_Cue"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2521139513" Name="ItemMagic" ObjectPath="\Events\Default Work Unit\Main\ItemMagic">
+					<IncludedMemoryFiles>
+						<File Id="182850209" Language="SFX">
+							<ShortName>Item_Pickup.wav</ShortName>
+							<Path>SFX\Item_Pickup_F00644E1.wem</Path>
+						</File>
+						<File Id="395128331" Language="SFX">
+							<ShortName>Player_Vocal_Nice.wav</ShortName>
+							<Path>SFX\Player_Vocal_Nice_D9CB08CF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1125681085" Name="ItemSpawn" ObjectPath="\Events\Default Work Unit\Main\ItemSpawn"/>
+				<Event Id="3825277969" Name="ItemWizardHat100" ObjectPath="\Events\Default Work Unit\Main\ItemWizardHat100"/>
+				<Event Id="3875610858" Name="ItemWizardHat150" ObjectPath="\Events\Default Work Unit\Main\ItemWizardHat150"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Main\Jump">
+					<IncludedMemoryFiles>
+						<File Id="675351052" Language="SFX">
+							<ShortName>Jump_1.wav</ShortName>
+							<Path>SFX\Jump_1_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4149105284" Name="JumpPad" ObjectPath="\Events\Default Work Unit\Main\JumpPad"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Main\Land">
+					<IncludedMemoryFiles>
+						<File Id="537104304" Language="SFX">
+							<ShortName>Jump_Land.wav</ShortName>
+							<Path>SFX\Jump_Land_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1758594367" Name="Map_Loaded" ObjectPath="\Events\Default Work Unit\Main\Map_Loaded">
+					<IncludedMemoryFiles>
+						<File Id="793650024" Language="SFX">
+							<ShortName>Map_Loaded.wav</ShortName>
+							<Path>SFX\Map_Loaded_F5BFE2CF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="219497941" Name="NoMagic" ObjectPath="\Events\Default Work Unit\Main\NoMagic"/>
+				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain">
+					<IncludedMemoryFiles>
+						<File Id="82506485" Language="SFX">
+							<ShortName>Player_ Ether.wav</ShortName>
+							<Path>SFX\Player_ Ether_C6903B0A.wem</Path>
+						</File>
+						<File Id="219044673" Language="SFX">
+							<ShortName>Body_Impact.wav</ShortName>
+							<Path>SFX\Body_Impact_4ADB80CE.wem</Path>
+						</File>
+						<File Id="667471665" Language="SFX">
+							<ShortName>Player_Vocal_Together.wav</ShortName>
+							<Path>SFX\Player_Vocal_Together_EDE324F7.wem</Path>
+						</File>
+						<File Id="1045733119" Language="SFX">
+							<ShortName>Player_Vocal_Uhh.wav</ShortName>
+							<Path>SFX\Player_Vocal_Uhh_A7251993.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="930941543" Name="Pain_Bauul" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Bauul"/>
+				<Event Id="32029953" Name="Pain_Goblin" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Goblin"/>
+				<Event Id="4052749775" Name="Pain_HellPig" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_HellPig"/>
+				<Event Id="1207059019" Name="Pain_Knight" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Knight"/>
+				<Event Id="2465710861" Name="Pain_Ogre" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Ogre">
+					<IncludedMemoryFiles>
+						<File Id="889683639" Language="SFX">
+							<ShortName>Ogre_Pain.wav</ShortName>
+							<Path>SFX\Ogre_Pain_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1698673413" Name="Pain_Rat" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Rat">
+					<IncludedMemoryFiles>
+						<File Id="996196116" Language="SFX">
+							<ShortName>Rat_Pain.wav</ShortName>
+							<Path>SFX\Rat_Pain_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="87064326" Name="Pain_Rhino" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Rhino">
+					<IncludedMemoryFiles>
+						<File Id="526225482" Language="SFX">
+							<ShortName>Rhino_Pain.wav</ShortName>
+							<Path>SFX\Rhino_Pain_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="52370326" Name="Pain_Slith" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Slith"/>
+				<Event Id="1052365209" Name="PupMagic" ObjectPath="\Events\Default Work Unit\Main\PupMagic">
+					<IncludedMemoryFiles>
+						<File Id="746551894" Language="SFX">
+							<ShortName>Player_Vocal_Nice.wav</ShortName>
+							<Path>SFX\Player_Vocal_Nice_B665CC65.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3732061108" Name="PupOut" ObjectPath="\Events\Default Work Unit\Main\PupOut">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1668749452" Name="No" ObjectPath="\States\Default Work Unit\PlayerHasSuperGem\No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="157639802" Name="Rumble" ObjectPath="\Events\Default Work Unit\Main\Rumble">
+					<IncludedMemoryFiles>
+						<File Id="848920137" Language="SFX">
+							<ShortName>Telemetry 6080_53_2.wav</ShortName>
+							<Path>SFX\Telemetry 6080_53_2_72E31A6B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="779629997" Name="Spawn_Monster" ObjectPath="\Events\Default Work Unit\Main\Spawn_Monster">
+					<IncludedMemoryFiles>
+						<File Id="995711927" Language="SFX">
+							<ShortName>Monsters_Awake.wav</ShortName>
+							<Path>SFX\Monsters_Awake_F00644E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1379053034" Name="Spawn_Player" ObjectPath="\Events\Default Work Unit\Main\Spawn_Player">
+					<IncludedMemoryFiles>
+						<File Id="161176957" Language="SFX">
+							<ShortName>Player_Heartbeat.wav</ShortName>
+							<Path>SFX\Player_Heartbeat_576193E5.wem</Path>
+						</File>
+						<File Id="575662711" Language="SFX">
+							<ShortName>Player_Awake.wav</ShortName>
+							<Path>SFX\Player_Awake_EDE324F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive"/>
+						<ActionSetStateEntry Id="1668749452" Name="No" ObjectPath="\States\Default Work Unit\PlayerHasSuperGem\No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="160686570" Name="SplashIn_Monster" ObjectPath="\Events\Default Work Unit\Main\SplashIn_Monster"/>
+				<Event Id="3954482959" Name="SplashIn_Player" ObjectPath="\Events\Default Work Unit\Main\SplashIn_Player">
+					<IncludedMemoryFiles>
+						<File Id="984318044" Language="SFX">
+							<ShortName>Underwater.wav</ShortName>
+							<Path>SFX\Underwater_0BF951F8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="979470758" Name="Yes" ObjectPath="\States\Default Work Unit\PlayerInWater\Yes"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3999919399" Name="SplashOut_Monster" ObjectPath="\Events\Default Work Unit\Main\SplashOut_Monster"/>
+				<Event Id="3877942876" Name="SplashOut_Player" ObjectPath="\Events\Default Work Unit\Main\SplashOut_Player">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1668749452" Name="No" ObjectPath="\States\Default Work Unit\PlayerInWater\No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3137127082" Name="SuperGemPup" ObjectPath="\Events\Default Work Unit\Main\SuperGemPup">
+					<ActionSetState>
+						<ActionSetStateEntry Id="979470758" Name="Yes" ObjectPath="\States\Default Work Unit\PlayerHasSuperGem\Yes"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2437085230" Name="SwitchMagic" ObjectPath="\Events\Default Work Unit\Main\SwitchMagic"/>
+				<Event Id="530129416" Name="Teleport" ObjectPath="\Events\Default Work Unit\Main\Teleport">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2077047193" Name="Cymbal_Swell" ObjectPath="\Triggers\Music\Cymbal_Swell"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3373753397" Name="Teleporter" ObjectPath="\Events\Default Work Unit\Main\Teleporter"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth" ObjectPath="\Game Parameters\Default Work Unit\PlayerHealth"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive" GUID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="979470758" Name="Yes" ObjectPath="\States\Default Work Unit\PlayerInWater\Yes" GUID="{63BB475D-29FC-41C6-9220-8C0153A4A3BB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1668749452" Name="No" ObjectPath="\States\Default Work Unit\PlayerHasSuperGem\No" GUID="{DE75061E-028A-4D05-8487-2B76CFA42B90}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2791675679" Name="Defeated" ObjectPath="\States\Default Work Unit\PlayerLife\Defeated" GUID="{88957439-75EF-4388-B7D5-C80FBE8EE054}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{84EE54A9-8C89-4269-883C-19ACAFCBA945}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{8258AC74-69DE-476C-8E12-737F59E1D242}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Material\Water" GUID="{16282ACA-929C-4899-8AC5-D47553758D3D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass" GUID="{65F087D5-CCB5-4E2A-8AAE-8F4E0C4B2FE7}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Material\Gravel" GUID="{98A05910-B7A6-4C59-A17D-D8AE4307E9E3}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{A72BD8FB-A36D-410B-8882-203D5410142F}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Material\Tile" GUID="{2C807461-413B-4A4A-A834-F64DAB785904}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Material\Stone" GUID="{19F0F8E1-7536-4131-B8C3-A89B64D530A2}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Material\Concrete" GUID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Material\Sand" GUID="{EC9B1B76-44A8-4F11-8EE3-AFB8C06C9897}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="2077047193" Name="Cymbal_Swell" ObjectPath="\Triggers\Music\Cymbal_Swell"/>
+				<Trigger Id="3371734183" Name="Health_Cue" ObjectPath="\Triggers\Music\Health_Cue"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2985974755" Name="Boss_Start" ObjectPath="\Events\Music\Boss_Start">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Music\Music_State\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1656055475" Name="Map_Completed" ObjectPath="\Events\Music\Map_Completed">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\Music\Music_State\Victory"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3430883159" Name="Monsters_Aware" ObjectPath="\Events\Music\Monsters_Aware"/>
+				<Event Id="2415014760" Name="Monsters_Unaware" ObjectPath="\Events\Music\Monsters_Unaware"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2415014760" Name="Monsters_Unaware" ObjectPath="\Events\Music\Monsters_Unaware"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="89505537" Name="Gameplay" ObjectPath="\States\Music\Music_State\Gameplay"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1815461482" Name="Story_End" ObjectPath="\Events\Music\Story_End">
+					<ActionSetState>
+						<ActionSetStateEntry Id="89505537" Name="Gameplay" ObjectPath="\States\Music\Music_State\Gameplay"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2778113369" Name="Story_Start" ObjectPath="\Events\Music\Story_Start">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1686739444" Name="Story" ObjectPath="\States\Music\Music_State\Story"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="89505537" Name="Gameplay" ObjectPath="\States\Music\Music_State\Gameplay" GUID="{C6F8D3B8-33CE-4A60-BB56-24F07BB2FD56}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Music\Music_State\Boss" GUID="{4479A128-6B80-4063-84A3-AC9E91D1F0A5}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1686739444" Name="Story" ObjectPath="\States\Music\Music_State\Story" GUID="{9C7E1D55-0381-41F2-A71F-F30BACE8101E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2716678721" Name="Victory" ObjectPath="\States\Music\Music_State\Victory" GUID="{CD350719-7205-45AC-B57A-2FB2E1E492AD}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

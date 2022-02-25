@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2229218260	DCP_Enter12			\Default Work Unit\Maps\DCP_the_core\DCP_Enter12	
+	2229218262	DCP_Enter10			\Default Work Unit\Maps\DCP_the_core\DCP_Enter10	
+	2229218263	DCP_Enter11			\Default Work Unit\Maps\DCP_the_core\DCP_Enter11	
+	2245995840	DCP_Enter09			\Default Work Unit\Maps\DCP_the_core\DCP_Enter09	
+	2245995841	DCP_Enter08			\Default Work Unit\Maps\DCP_the_core\DCP_Enter08	
+	2245995848	DCP_Enter01			\Default Work Unit\Maps\DCP_the_core\DCP_Enter01	
+	2245995850	DCP_Enter03			\Default Work Unit\Maps\DCP_the_core\DCP_Enter03	
+	2245995851	DCP_Enter02			\Default Work Unit\Maps\DCP_the_core\DCP_Enter02	
+	2245995852	DCP_Enter05			\Default Work Unit\Maps\DCP_the_core\DCP_Enter05	
+	2245995853	DCP_Enter04			\Default Work Unit\Maps\DCP_the_core\DCP_Enter04	
+	2245995854	DCP_Enter07			\Default Work Unit\Maps\DCP_the_core\DCP_Enter07	
+	2245995855	DCP_Enter06			\Default Work Unit\Maps\DCP_the_core\DCP_Enter06	
+	2829720188	DCP_Signal01			\Default Work Unit\Maps\DCP_the_core\DCP_Signal01	
+	2829720191	DCP_Signal02			\Default Work Unit\Maps\DCP_the_core\DCP_Signal02	
+	3721111614	DCP_Music			\Default Work Unit\Maps\DCP_the_core\DCP_Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1112372468	Huge_Space_Machine_Gun_Hangar	Wwise RoomVerb			
+	2259899856	Claustro_Robotic_Trash	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	295506681	Signal01	C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\.cache\Mac\SFX\Air Plane Ding-SoundBible.com-496729130_E90F0463.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal01		70544
+	483623956	Signal02	C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\.cache\Mac\SFX\Air Plane Ding-SoundBible.com-496729130_9E8490F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal02		45838
+	940017499	enter01	C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\.cache\Mac\SFX\Dungeon_Enter_EDE324F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter01		241176
+	1062472929	enter02	C:\Users\ofaka\5.-Project3_CubeRedesign#project3_cuberedesign\Project3_WwiseProject\.cache\Mac\SFX\Access_Granted_E5554D93.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter02		328516
+
